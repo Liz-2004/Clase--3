@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img :src="require('../assets/img/gatito.jpg')" alt="gatito" style="width: 200px; height: auto; "> 
+    <img :src="require('../assets/img/nata.jpg')" alt="nata" style="width: 200px; height: auto; "> 
   <h1>info personal: {{ info }}</h1>
   </div>
 </template>
@@ -9,7 +9,7 @@
 export default{
   data (){
     return{
-      info: 'Alejandra Lizeth, 20975, 5A'
+      info: 'Angel Emmanuel Cerda, 20974, 5A'
     }
   }
 }
